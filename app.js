@@ -70,9 +70,9 @@ client.on('message', async (msg, res) => {
       else {
         // Validasi Number is free
         var numbervalidate = "6289514392694@c.us";
-        if(fromnumber == numbervalidate) { 
+        if(fromnumber == numbervalidate) {  
 
-          var SAPServerName = "sapprod123"; // Your SAP Server Name
+          var SAPServerName = "sapserver123"; // Your SAP Server Name
           var HostAddress = "192.xxx.xxx.xx"; // Your SAP Server IP Address
           // Manage SAPK1DEV     
           if(keyword == "infostoragesapk1dev") {    

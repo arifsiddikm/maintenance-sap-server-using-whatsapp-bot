@@ -68,8 +68,8 @@ client.on('message', async (msg, res) => {
         }
       }
       else {
-        // Validasi Number is free
-        var numbervalidate = "6289514392694@c.us";
+        // Validasi Number is free 
+        var numbervalidate = "6289514******@c.us";
         if(fromnumber == numbervalidate) {  
 
           var SAPServerName = "sapserver123"; // Your SAP Server Name

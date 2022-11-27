@@ -9,3 +9,5 @@ Step?
 5. Scan your QRCode WhatsApp;
 6. Test Chat on command ready;
 7. Let's enjoy trial;  
+
+# Source Code WhatsApp Web JS Alternatif and up to date : https://github.com/ngekoding/whatsapp-api-tutorial

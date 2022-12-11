@@ -2,15 +2,15 @@
 
 Shutdown, Start, Stop, Info Listener on SAP Server via SSH using WhatsApp API with JavaScript.
 
-### How to use? 
+### How to use?   
 
-- Download Source Code & Move to your Linux Server;
-- Open Project > Run `npm install`;
-- Setting app.js to Set your IP Address & SAP Server Name;
-- Run WhatsApp Web > `npm run start`;
-- Open browser > go to address `http://YourIPHost:8000` > Scan your QRCode WhatsApp;
-- Test Chat on command ready;
-- Enjoy!;       
+- Download Source Code & Move to your Linux Server
+- Open Project > Run `npm install`
+- Setting app.js to Set your IP Address & SAP Server Name
+- Run WhatsApp Web > `npm run start`
+- Open browser > go to address `http://YourIPHost:8000` > Scan your QRCode WhatsApp
+- Test Chat on command ready
+- Enjoy!  
 
 Source Code Bot WhatsApp Web JS Alternatif and up to date : https://github.com/ngekoding/whatsapp-api-tutorial
 

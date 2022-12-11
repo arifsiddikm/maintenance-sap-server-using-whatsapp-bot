@@ -11,3 +11,8 @@ Step?
 7. Let's enjoy trial;       
 
 Source Code Bot WhatsApp Web JS Alternatif and up to date : https://github.com/ngekoding/whatsapp-api-tutorial
+
+<p><h4 align="center">Support me on</h4></p>
+<p align="center">
+  <a href="https://saweria.co/arifsiddikm" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="Sawer me" height="41" width="174"></a>
+<p align="center">  

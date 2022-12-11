@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Whatsapp API by Ngekoding & Recode by Arif</title>
+	<title>Whatsapp API by Ngekoding</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- This parts is optional, just for improve the styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      padding: 20px;
+    }
+    #app {
+      max-width: 500px;
+      margin: 20px auto;
+    }
+    #qrcode {
+      display: none; /* Showed when qr code received */
+      width: 100%;
+      margin: 10px 0;
+      border: 1px solid #efefef;
+      border-radius: 4px;
+    }
+    ul.logs {
+      max-height: 150px;
+      padding: 15px 15px 15px 30px;
+      margin-top: 5px;
+      border-radius: 4px;
+      overflow-y: auto;
+      background: #efefef;
+      color: #666;
+      font-size: 14px;
+    }
+    ul.logs li:first-child {
+      color: green;
+    }
+  </style>
 </head>
 <body>
+
 	<div id="app">
 		<h1>Whatsapp API</h1>
-		<p>Powered by Ngekoding & Recode by Arif</p>
+		<p>Powered by Ngekoding</p>
 		<img src="" alt="QR Code" id="qrcode">
 		<h3>Logs:</h3>
 		<ul class="logs"></ul>
 	</div>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" crossorigin="anonymous"></script>
 	<script>
@@ -18,7 +58,7 @@
 			var socket = io();
 
 			socket.on('message', function(msg) {
-				$('.logs').append($('<li>').text(msg));
+				$('.logs').prepend($('<li>').text(msg));
 			});
 
 			socket.on('qr', function(src) {

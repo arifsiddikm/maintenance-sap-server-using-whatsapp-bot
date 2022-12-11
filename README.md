@@ -2,7 +2,7 @@
 
 Shutdown, Start, Stop, Info Listener on SAP Server via SSH using WhatsApp API with JavaScript.
 
-### How to use?   
+### How to use?     
 
 - Download Source Code & Move to your Linux Server
 - Open Project > Run `npm install`
@@ -12,7 +12,7 @@ Shutdown, Start, Stop, Info Listener on SAP Server via SSH using WhatsApp API wi
 - Test Chat on command ready
 - Enjoy!  
 
-Source Code Bot WhatsApp Web JS Alternatif and up to date : https://github.com/ngekoding/whatsapp-api-tutorial
+Source Code Bot WhatsApp Web JS and up to date on : https://github.com/ngekoding/whatsapp-api-tutorial
 
 ---
 

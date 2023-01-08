@@ -1,3 +1,13 @@
+/*
+Author : Arif Siddik M.
+Domisili : Cilegon, Banten 
+Web : http://arifsiddikm.com/
+Instagram : http://instagram.com/arifsiddikm/
+LinkedIn : http://linkedin.com/in/arif-siddik-muharam/
+GitHub : http://github.com/arifsiddikm/
+Saweria : http://saweria.co/arifsiddikm
+Tujuan Projek : WhatsApp Bot yang digunakan untuk Maintenance Server SAP pada Server Local.
+*/
 const { Client, MessageMedia, LocalAuth } = require('whatsapp-web.js');
 const express = require('express');
 const { body, validationResult } = require('express-validator');
